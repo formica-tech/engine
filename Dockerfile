@@ -1,5 +1,5 @@
 FROM golang:1.17-alpine AS build
-ARG APP
+ARG APP=signal
 
 WORKDIR /src
 COPY ./go.mod ./go.sum ./
